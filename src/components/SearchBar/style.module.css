@@ -1,0 +1,28 @@
+.icon {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 7px;
+color: black;
+  padding-top: 18px;
+}
+
+.input {
+ position: relative;
+    width: 100%;
+border-radius: 30px;
+height: 30px;
+/* color: white; */
+font-weight: 100;
+font-size: 20px;
+border-color: transparent;
+padding: 18px 18px 18px 50px;
+}
+
+input::placeholder{
+    color: rgb(194, 194, 194);
+}
+
+input:focus {
+   outline-width: 0;
+   border: solid 1px white;
+}

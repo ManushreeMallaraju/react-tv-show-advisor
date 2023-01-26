@@ -1,0 +1,19 @@
+.title {
+    font-family: Roboto ;
+    font-weight: 600;
+    font-size: 20px;
+}
+.list:hover {
+    overflow: overlay; /* scroll through the list items on hover*/
+}
+
+.list {
+    display: flex;
+    width: 100vw - 25px; /*minus the padding of list item*/
+    overflow-x: hidden; /* not extend width on x-axis */
+    padding-bottom: 30px; /* for hiding scroll, and make customized */
+}
+
+.tv_show_item {
+    margin-right: 10px;
+}
